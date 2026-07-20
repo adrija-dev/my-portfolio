@@ -43,7 +43,7 @@ class SocialWidget extends StatelessWidget {
       spacing: 12, 
       runSpacing: 12, 
       children: [ 
-        SocialIcon(icon: FontAwesomeIcons.linkedinIn, onTap: () => _launchUrl('https://linkedin.com/in/adrija-ghosh20')), 
+        SocialIcon(icon: FontAwesomeIcons.linkedinIn, onTap: () => _launchUrl('https://www.linkedin.com/in/adrija-ghosh-999a72300/')), 
         SocialIcon(icon: FontAwesomeIcons.github, onTap: () => _launchUrl('https://github.com/adrija-dev')), 
         SocialIcon(icon: FontAwesomeIcons.envelope, onTap: () => _launchUrl('mailto:adrijaghosh5002@gmail.com')), 
       ], 
