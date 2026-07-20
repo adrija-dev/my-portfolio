@@ -12,12 +12,14 @@ class DownloadCVButton extends StatefulWidget {
 class _DownloadCVButtonState extends State<DownloadCVButton> {
   bool _isHovered = false;
 
-  Future<void> _downloadCV() async { 
-    final Uri url = Uri.parse('/resume.pdf'); 
-    if (!await launchUrl(url, mode: LaunchMode.platformDefault)) { 
-      throw Exception('Could not open CV'); 
-    } 
-  } 
+ Future<void> _downloadCV() async {
+  final Uri url = Uri.parse('resume.pdf'); 
+  
+  if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+    throw Exception('Could not open CV');
+  }
+}
+
 
   @override 
   Widget build(BuildContext context) { 

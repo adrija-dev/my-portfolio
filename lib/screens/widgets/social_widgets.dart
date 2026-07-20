@@ -28,12 +28,13 @@ class SocialTab extends StatelessWidget {
 class SocialWidget extends StatelessWidget { 
   const SocialWidget({super.key}); 
 
-  Future<void> _launchUrl(String url) async { 
-    final Uri uri = Uri.parse(url); 
-    if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) { 
-      throw Exception('Could not launch $url'); 
-    } 
-  } 
+ Future<void> _launchUrl(String url) async {
+  final Uri uri = Uri.parse(url);
+  if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+    throw Exception('Could not launch $url');
+  }
+}
+
 
   @override 
   Widget build(BuildContext context) { 
