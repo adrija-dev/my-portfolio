@@ -65310,7 +65310,7 @@ return A.O(null,r)}})
 return A.P($async$ln,r)},
 O(a){return A.ahM(B.iY,A.d([new A.mC(B.Ag,new A.a16(this),null),new A.mC(B.kB,new A.a17(this),null),new A.mC(B.Ac,new A.a18(this),null)],t.p),12,12)}}
 A.a16.prototype={
-$0(){return this.a.ln("https://linkedin.com/in/adrija-ghosh20")},
+$0(){return this.a.ln("https://www.linkedin.com/in/adrija-ghosh-999a72300/")},
 $S:0}
 A.a17.prototype={
 $0(){return this.a.ln("https://github.com/adrija-dev")},
