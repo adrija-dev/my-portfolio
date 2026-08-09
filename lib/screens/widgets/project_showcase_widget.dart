@@ -30,6 +30,13 @@ class _ProjectShowcaseWidgetState extends State<ProjectShowcaseWidget> {
       'githubUrl': 'https://github.com/adrija-dev', 
       'imageAsset': 'assets/images/portfolio.jpg',
     },
+     {
+      'title': 'SnapWave Social Media Website',
+      'description': 'Responsive MERN social app featuring fluid layout animations and mobile-first, adaptive layouts.',
+      'techStack': ['MERN Stack', 'React', 'Responsive UI'],
+      'githubUrl': 'https://github.com/adrija-dev/SnapWave', 
+      'imageAsset': 'assets/images/snapwave_project.jpg',
+    },
   ];
 
   final Map<int, bool> _hoveredStates = {};

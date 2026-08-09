@@ -19,7 +19,13 @@ class _SkillsSectionWidgetState extends State<SkillsSectionWidget> {
     {'name': 'C++', 'icon': FontAwesomeIcons.terminal, 'subtitle': 'OOP Systems '},
     {'name': 'Java', 'icon': FontAwesomeIcons.java, 'subtitle': 'Backend App and Data Structures and Algorithms'},
     {'name': 'Python', 'icon': FontAwesomeIcons.python, 'subtitle': 'Data & Scripts'},
+    {'name': 'JavaScript', 'icon': FontAwesomeIcons.js, 'subtitle': 'Web & Logic'},
+    {'name': 'React', 'icon': FontAwesomeIcons.react, 'subtitle': 'Frontend UI'},
+    {'name': 'Node.js', 'icon': FontAwesomeIcons.nodeJs, 'subtitle': 'Backend Runtime'},
+    {'name': 'Express', 'icon': FontAwesomeIcons.server, 'subtitle': 'REST APIs'},
+    {'name': 'MongoDB', 'icon': FontAwesomeIcons.database, 'subtitle': 'NoSQL Database'},
   ];
+
 
   final Map<int, bool> _hoveredStates = {};
 

@@ -38,6 +38,8 @@ flutter:
     - assets/images/profile_new.jpg
     - assets/images/deskflow_dashboard.jpg
     - assets/images/portfolio.jpg
+    - assets/images/snapwave_project.jpg
+    
 
 
   fonts:

@@ -22,7 +22,7 @@ class HeaderTextWidget extends StatelessWidget {
           alignment: size.width > 600 ? TextAlign.start : TextAlign.center, 
         ), 
         const SizedBox(height: 12), 
-        GradientTextWidget(size: size, alignment: TextAlign.center, text1: "Flutter Developer", text2: "BCA Student"), 
+        GradientTextWidget(size: size, alignment: TextAlign.center, text1: "Flutter Developer + Web Developer", text2: "BCA Student"), 
         const SizedBox(height: 24), 
         SizedBox( 
           width: size.width > 600 ? size.width * 0.5 : size.width * 0.85, 
