@@ -37,6 +37,13 @@ class _ProjectShowcaseWidgetState extends State<ProjectShowcaseWidget> {
       'githubUrl': 'https://github.com/adrija-dev/SnapWave', 
       'imageAsset': 'assets/images/snapwave_project.jpg',
     },
+     {
+      'title': 'SimpleWallet Payment Website',
+      'description': 'A modern, responsive payment processing website built with the MERN stack, featuring seamless integration and a user-friendly interface.',
+      'techStack': ['MERN Stack', 'React', 'Responsive UI'],
+      'githubUrl': 'https://github.com/adrija-dev/SimpleWallet',
+      'imageAsset': 'assets/images/simplewallet_project.jpg',
+    },
   ];
 
   final Map<int, bool> _hoveredStates = {};
